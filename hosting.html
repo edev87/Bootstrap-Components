@@ -4,21 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shirnk-to-fit=no">
-  <title>BSMail</title>
+  <title>Hosting Pro</title>
   <!-- Boostrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <!-- Bootsrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@100;200;300;400;500&family=Londrina+Shadow&family=Roboto&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/css/site.css">
+  <!-- Page Specific CSS -->
+  <link rel="stylesheet" href="/css/hosting.css">
 
 </head>
 
 <body>
-  <header>
-    <nav data-bs-theme="dark" class="navbar navbar-expand-sm bg-body-tertiary">
-      <div class="container-fluid">
+  <nav data-bs-theme="dark" class="navbar navbar-expand-sm bg-body-tertiary">
+      <div class="container-xxl">
         <a class="navbar-brand" href="/index.html">BS Components</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,9 +47,139 @@
         </div>
       </div>
     </nav>
+  <header class="container-xxl p-0">
+    <div class="main-header">
+      <div class="main-header-content h-100 d-flex align-items-center justify-content-start">
+        <div class="main-header-wrapper">
+        <div class="main-title"> Bring Your Code,</div>
+        
+        <div class="main-title"> We'll Handle the Rest</div>
+        <div class="subtitle mt-3">Made for any languages, for projects big and small. 
+          Hosting Pro is the cloud that takes the complexity out of shipping software.
+        </div>
+        </div>
+      </div>
+    </div>
+    
   </header>
 
-  <main>
+  <main class="container-xxl">
+    <!-- Cards -->
+    <div class="row my-2 gy-3 px-5">
+      <div class="col col-sm-6 col-md-4">
+        <div class="card text-center h-100">
+          <div class="card-header text-start lead bg-warning-subtle">
+            Starter Package
+          </div>
+          <div class="card-body">
+            <h5 class="card-title lead display-5">$499.99</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusamus enim beatae
+              facere ut,
+              animi deleniti optio impedit minima nam magnam cupiditate soluta odit
+              placeat rem vel dignissimos laborum doloribus!</p>
+          </div>
+          <div class="card-footer text-muted text-center bg-warning-subtle">
+            <a href="#" class="btn btn-warning">Book Now</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col col-sm-6 col-md-4">
+        <div class="card text-center h-100">
+          <div class="card-header text-start lead bg-primary-subtle">
+            Pro Package
+          </div>
+          <div class="card-body">
+            <h5 class="card-title lead display-5">$499.99</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusamus enim beatae
+              facere ut,
+              animi deleniti optio impedit minima nam magnam cupiditate soluta odit
+              placeat rem vel dignissimos laborum doloribus!</p>
+          </div>
+          <div class="card-footer text-muted text-center bg-primary-subtle">
+            <a href="#" class="btn btn-primary">Book Now</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col col-sm-12 col-md-4">
+        <div class="card text-center h-100">
+          <div class="card-header text-start lead bg-info-subtle">
+            Lake Package
+          </div>
+          <div class="card-body">
+            <h5 class="card-title lead display-5">$499.99</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusamus enim beatae
+              facere ut,
+              animi deleniti optio impedit minima nam magnam cupiditate soluta odit
+              placeat rem vel dignissimos laborum doloribus!</p>
+          </div>
+          <div class="card-footer text-muted text-center bg-info-subtle">
+            <a href="#" class="btn btn-info">Book Now</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Cards -->
+
+     <!-- Contact Form -->
+
+     <div class=" text-center mt-5 mb-3">
+      <button class="bg-transparent border-0 display-6" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Contact Us
+      </button>
+
+      <div class="text-start collapse show" id="collapseExample">
+        <div class="card card-body mt-3">
+          
+    <!-- Contact Form -->
+          <form action="#">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="col ">
+                <label for="First Name" class="form-label">First Name</label>
+                <input class="form-control" type="text" name="FirstName" id="FirstName" placeholder="First Name"
+                  aria-label="First Name" required>
+              </div>
+              <div class="col ">
+                <label for="Last Name">Last Name</label>
+                <input class="form-control" type="text" name="Last Name" id="" placeholder="Last Name"
+                  aria-lable="Last Name" required>
+              </div>
+              <div class="col ">
+                <label for="Email">Email</label>
+                <input class="form-control" type="email" name="Email" id="" placeholder="Email" aria-lable="Email" required>
+              </div>
+              <div class="col ">
+                <label for="Phone">Phone (optional)</label>
+                <input class="form-control" type="tel" name="Phone" id="Phone" placeholder="Phone" aria-lable="Phone">
+              </div>
+              <div class="col col-md-12">
+                <label for="Phone">Subject</label>
+                <input class="form-control" type="text" name="Subject" id="Subject" placeholder="Subject"
+                  aria-lable="Subject" required>
+              </div>
+              <div class="col col-md-12">
+                <label for="Message">Message</label>
+                <textarea class="form-control" type="text" name="Message" id="Message" placeholder="Message"
+                  aria-lable="Message" required> </textarea>
+              </div>
+              <div class="text-end">
+                <button type="submit" class="btn btn-primary mt-2">Submit</button>
+    
+              </div>
+    
+            </div>
+    
+          </form>
+           <!-- Contact Form -->
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Contact Form -->
 
   </main>
 
@@ -54,7 +189,7 @@
         &copy; 2023
       </div>
       <div class="col text-light lead">
-        Bootstrap Inbox
+        Coder Foundry Hosting Pro
 
       </div>
       <div class="col  text-md-end">

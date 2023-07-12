@@ -1,0 +1,131 @@
+/* 
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Londrina Shadow', cursive;
+font-family: 'Roboto', sans-serif;
+
+*/
+:root {
+  --cf-heading-font: 'Bebas Neue', sans-serif;
+  --cf-subtitle-font: 'Fira Sans', sans-serif;
+
+
+}
+
+.main-header {
+  background-image: url(/img/HostingPro576.png);
+  background-color: var(--bs-primary-bg-subtle);
+  height: 200px;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.main-header-content {}
+
+.main-header-wrapper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 50%;
+}
+
+.main-title {
+  font-family: var(--cf-heading-font);
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+}
+
+.subtitle {
+  font-family: var(--cf-subtitle-font);
+  font-size: .8rem;
+  font-weight: 300;
+  line-height: .9rem;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .main-header {
+    background-image: url(/img/HostingPro768.png);
+   
+  }
+  
+  .main-title {
+    font-size: 2.1rem;
+    line-height: 1.8rem;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.1rem;
+  }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .main-header {
+    background-image: url(/img/HostingPro992.png);
+    height: 300px;
+   
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+  }
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .main-header {
+    background-image: url(/img/HostingPro1200.png);
+    height: 400px;
+   
+  }
+  
+  .main-title {
+    font-size: 3.5rem;
+    line-height: 3rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+  }
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  main-header {
+    background-image: url(/img/HostingPro2560.png);
+    height: 500px;
+   
+  }
+  
+  .main-title {
+    font-size: 4.7rem;
+    line-height: 4.1rem;
+  }
+  
+  .subtitle {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+  }
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
